@@ -12,7 +12,7 @@ spec:
       labels:
         app: mission
     spec:
-      containers:
+    containers:
       - name: mission
         image: upendar07/mission:latest
         imagePullPolicy: Always
